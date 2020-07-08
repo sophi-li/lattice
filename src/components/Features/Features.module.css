@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+  text-align: left;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.container:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.feature {
+  font-weight: bold;
+}
+
+.explore,
+.feature {
+  color: #10bb9f;
+}

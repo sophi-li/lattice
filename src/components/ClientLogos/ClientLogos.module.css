@@ -1,0 +1,37 @@
+.container {
+  text-align: center;
+  margin-top: 5rem;
+  background-color: #f9fafc;
+  padding: 0rem 0 7rem 0;
+  background-image: linear-gradient(#f9fafc, white);
+  border-top-left-radius: 50% 30px;
+  border-top-right-radius: 50% 30px;
+}
+
+.contentContainer {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.title {
+  padding-top: 7rem;
+  color: #222d38;
+}
+
+.subtitle {
+  color: #667484;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+/* Desktop Responsiveness */
+@media only screen and (min-width: 760px) {
+  .container {
+    border-top-left-radius: 50% 45px;
+    border-top-right-radius: 50% 45px;
+  }
+
+  .contentContainer {
+    width: 90%;
+  }
+}

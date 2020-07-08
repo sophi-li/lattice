@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  background-color: #f7eee5;
+  padding: 2rem 0 6rem 0;
+  background-image: linear-gradient(#f7eee5, white);
+}
+
+.contentContainer {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #464c52;
+  font-weight: normal;
+}
+
+/* Desktop Responsiveness */
+@media only screen and (min-width: 760px) {
+  .contentContainer {
+    width: 60%;
+  }
+}
